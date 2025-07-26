@@ -1,54 +1,36 @@
-# 📊 Data Analytics in Sales Domain
+# AI-Powered Resume Screening System 🤖
 
-This project applies data analytics techniques to the sales domain to derive actionable insights for improving sales performance and driving business strategy.
-
----
-
-## 📑 Overview
-
-The primary objective of this project is to:
-- Analyze sales data using advanced analytics methodologies
-- Identify trends, patterns, and outliers
-- Support business decisions with clear, data-driven insights
+This project is a web-based application that automates the initial resume screening process. It uses Natural Language Processing (NLP) and Machine Learning to parse resumes, calculate a similarity score against a given job description, and rank candidates, helping recruiters to quickly identify the most promising applicants.
 
 ---
 
-## 📁 Files Included
+### ## Key Features ✨
 
-- **Excel Sheet**
-  - Contains the raw sales data and cleaned data used in the analysis
-
-- **Detailed Reports**
-  - Summarized findings and key performance indicators
-
-- **Code Files**
-  - Scripts and notebooks demonstrating the analytics process
-
-- **Documentation**
-  - Descriptions of analytics methodologies and steps taken
-
-- **Visualizations & Dashboards**
-  - Power BI dashboards and other charts highlighting insights
+- **File Upload:** Accepts multiple resumes at once (PDF and DOCX formats).
+- **Job Description Analysis:** Processes a job description to extract key requirements.
+- **Cosine Similarity Scoring:** Ranks each resume based on its textual similarity to the job description.
+- **ML-based Prediction:** A pre-trained model predicts if a resume is a "Good Fit" based on general characteristics.
+- **Automated Skill Extraction:** Identifies relevant skills from resume text.
+- **Ranked Results:** Displays a clean, ranked list of all candidates.
+- **CSV Export:** Allows downloading the shortlisted candidates' data for offline use.
 
 ---
 
-## 📊 Project Video
+### ## Tech Stack 🛠️
 
-📺 [Watch the Project Walkthrough Video](https://youtu.be/LOPnZclka0o)
-
----
-
-## 🙌 How to Contribute
-
-- ⭐ Star the repository if you find it useful
-- 📝 Leave a comment with your thoughts or questions
-- 📢 Share the project with others who might benefit
+- **Backend:** Python, Flask
+- **Machine Learning:** Scikit-learn
+- **NLP:** spaCy
+- **Data Handling:** Pandas, PyPDF2, python-docx
+- **Frontend:** HTML, Bootstrap
 
 ---
 
-## 🖥 How to Use
+### ## Installation & Usage 🚀
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/sales-analytics-project.git
-   cd sales-analytics-project
+Follow these steps to get the project up and running on your local machine.
+
+**1. Clone the repository:**
+```bash
+git clone [https://github.com/your-username/ai-resume-screener.git](https://github.com/your-username/ai-resume-screener.git)
+cd ai-resume-screener
